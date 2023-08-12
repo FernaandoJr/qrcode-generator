@@ -14,4 +14,5 @@ qr.add_data(value)
 img = qr.make_image(image_factory=StyledPilImage,embeded_image_path=".\img\pyy-logo.png")
 
 img.save(".\img\qrcode.png")
+
 print("Imagem gerada com sucesso!")
